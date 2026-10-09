@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
+# Model weights and datasets are large - keep them out of git
+models/*.pt
+data/realwaste/
+data/stage1/
+outputs/*
+!outputs/.gitkeep

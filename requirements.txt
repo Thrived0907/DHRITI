@@ -1,0 +1,14 @@
+# Python 3.10 - 3.12 recommended
+torch>=2.2.0
+torchvision>=0.17.0
+ultralytics>=8.1.0        # YOLOv8 (Stage 1)
+numpy>=1.23.5
+pillow>=10.1.0
+pandas>=2.0.0
+pyyaml>=6.0
+streamlit>=1.30.0
+fastapi>=0.110.0
+uvicorn>=0.25.0
+python-multipart>=0.0.9
+pytest>=7.4.0
+httpx>=0.27.0             # only needed for tests/test_api.py

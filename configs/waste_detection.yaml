@@ -1,0 +1,21 @@
+# YOLOv8 data config for Stage 1 (merged TACO + KNR-PET-7).
+# Fill in `names` with YOUR merged class list - the order must match the class ids in your label files.
+# See data/README.md for how to build the merged dataset.
+
+path: data/stage1          # dataset root (relative to where you run the training command)
+train: images/train
+val: images/val
+test: images/test          # optional
+
+# Example only - replace with your real merged classes (TACO categories + KNR-PET-7 PET types):
+names:
+  0: Clear plastic bottle
+  1: Other plastic bottle
+  2: Glass bottle
+  3: Drink can
+  4: Food Can
+  5: Plastic bag & wrapper
+  6: Paper cup
+  7: Carton
+  8: Styrofoam piece
+  9: Cigarette
